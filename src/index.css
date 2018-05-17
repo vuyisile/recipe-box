@@ -1,0 +1,99 @@
+.container{}
+.container-fluid{}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input{
+  margin-bottom:10%;
+  margin-top: 10%;
+}
+
+textarea{
+  margin-bottom:10%;
+} 
+
+.btn{
+  margin-top: 4%;
+  margin-bottom:4px;
+  align:center; 
+}
+.form-control{}
+
+/* button{
+  width:100%;
+  position: center;
+} */
+#display-panel{
+  width: 300px;
+  height: 350px;
+  overflow-y:scroll;
+  color:black;
+}
+
+
+#btn-panel{
+  width: 500px;
+  height: 250px;
+  overflow-y:scroll; 
+}
+
+#form{
+  width: 500px;
+  height: 250px;  
+}
+.header{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+.marginer{
+  margin-top: 2%;
+}
+
+
+
+.body-bg{
+  background-image: url("chicken.jpg");
+  /* position: relative; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  #root{
+  margin-left: 18px;
+  }
+  .body-bg{
+    background-image: url("burger.jpg");
+    background-size: cover;
+    /* background-repeat: repeat-y; */
+    
+}
+.ov-lay{
+  opacity: 0.8;
+  filter: alpha(opacity=50); 
+}
+  
+}
+.text-color{
+color:black;
+}
+
+
+.ov-lay{
+  opacity: 0.9;
+  filter: alpha(opacity=50);   
+}
+
+
+.z-indx{
+  color: white;
+  z-index: 1;
+ background-color: #ccc; 
+  
+}
+
